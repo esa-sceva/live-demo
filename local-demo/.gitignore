@@ -1,0 +1,51 @@
+# Python
+venv/
+env/
+ENV/
+.venv
+__pycache__/
+./app
+./bin
+.Python
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML/AI specific
+# Model caches (downloaded automatically)
+# HuggingFace cache is in ~/.cache/huggingface/ (user's home, not in repo)
+
+# Local data and caches
+chunks_cache/
+qdrant_db/
+*.sqlite
+*.db
+
+# Data files (optional - uncomment if data is large/sensitive)
+data/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
